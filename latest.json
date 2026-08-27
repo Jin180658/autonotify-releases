@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
-  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.0/AutoNotify-Setup-0.1.0.exe",
-  "notes": "Installer release feed initialized."
+  "version": "0.1.4",
+  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.4/AutoNotify-Setup-0.1.4.exe",
+  "notes": "Windows shortcut repair, install-folder selection, and update-feed setup."
 }
