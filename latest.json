@@ -1,5 +1,6 @@
 {
-  "version": "0.1.4",
-  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.4/AutoNotify-Setup-0.1.4.exe",
-  "notes": "Windows shortcut repair, install-folder selection, and update-feed setup."
+  "version": "0.1.5",
+  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.5/AutoNotify-Setup-0.1.5.exe",
+  "sha256": "3769400D9748594B363C3C8FC545C519592E108366BEDA3F293F0A53FB0D0B51",
+  "notes": "Sign-in reminder catch-up, accurate update notices, and secure in-app self-updates."
 }
