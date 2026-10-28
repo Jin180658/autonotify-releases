@@ -1,6 +1,6 @@
 {
-  "version": "0.1.5",
-  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.5/AutoNotify-Setup-0.1.5.exe",
-  "sha256": "3769400D9748594B363C3C8FC545C519592E108366BEDA3F293F0A53FB0D0B51",
-  "notes": "Sign-in reminder catch-up, accurate update notices, and secure in-app self-updates."
+  "version": "0.1.16",
+  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.16/AutoNotify-Setup-0.1.16.exe",
+  "sha256": "144868B2BF47A4D66F0269B47DB924D4B9D99FE5B2F58BFF73F69A9C5FBCC903",
+  "notes": "English / 简体中文 interface; simpler navigation; verified-email account setup and password recovery; customer remarks and VEP ID; policy charges and payments; independent email reminders; encrypted backups and improved in-app updates. Existing local data and account are retained. SMS and WhatsApp are no longer supported."
 }
