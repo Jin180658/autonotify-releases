@@ -1,6 +1,6 @@
 {
-  "version": "0.1.16",
-  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.16/AutoNotify-Setup-0.1.16.exe",
-  "sha256": "144868B2BF47A4D66F0269B47DB924D4B9D99FE5B2F58BFF73F69A9C5FBCC903",
-  "notes": "English / 简体中文 interface; simpler navigation; verified-email account setup and password recovery; customer remarks and VEP ID; policy charges and payments; independent email reminders; encrypted backups and improved in-app updates. Existing local data and account are retained. SMS and WhatsApp are no longer supported."
+  "version": "0.1.17",
+  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.17/AutoNotify-Setup-0.1.17.exe",
+  "sha256": "CBF76D80C62F1ECB43319AA75D6553C1D5D538F17AF24FEA2287C5A78C4F213D",
+  "notes": "Windows startup repair: PostgreSQL now uses its restricted-privilege launcher instead of inheriting administrator permissions. Improved startup failure detection and correct data-folder log paths. Existing account, records and email settings are retained; no database reset or UAC change is needed."
 }

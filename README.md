@@ -9,7 +9,7 @@ This public repository contains installers, instructions and the update feed onl
 ## Install
 
 1. Use a **64-bit Windows PC** and open the download link above.
-2. Under **Assets**, download `AutoNotify-Setup-0.1.16.exe`. The source-code ZIP and TAR files are not the application.
+2. Under **Assets**, download `AutoNotify-Setup-0.1.17.exe`. The source-code ZIP and TAR files are not the application.
 3. Run the installer and choose an installation folder.
 4. Keep both recommended options selected:
    - **Start AutoNotify when I sign in to Windows** — starts the local app after Windows sign-in.
@@ -74,6 +74,10 @@ Older versions can also be upgraded by downloading the latest installer and runn
 
 ## Release status
 
-Version **0.1.16** passed local automated tests, production browser checks and an upgrade of the existing installation. A fresh second-PC installation, reboot trial and update from an older public release still need real-user acceptance testing. Start with one trial laptop before relying on it across your business.
+Version **0.1.17** repairs a reported Windows startup failure where PostgreSQL refused inherited administrator permissions. It uses PostgreSQL's own restricted-privilege launcher and reports the correct log paths. Install it under the same Windows account and keep your data folder; do not reset the database or disable UAC. Users whose old copy cannot start should download and run the new installer directly.
+
+The repair passed unit/database integration tests, production build and disposable Windows cold-start, restart/data-preservation and failure-path checks. The original affected elevated Windows configuration still needs confirmation on that user's PC. A fresh second-PC installation, reboot trial and update from an older public release remain real-user acceptance checks. Start with one trial laptop before relying on it across your business. English/Chinese interface and all 0.1.16 features remain included.
+
+Current database startup details are in `%LOCALAPPDATA%\AutoNotify\data\logs\postgres.log` and `postgres-control-error.log`. The old `postgres-error.log` may contain historical output from earlier versions.
 
 If startup fails, retain your data folder and check its `logs` directory. When reporting a problem, include the app version and error text, and remove private customer or credential details from screenshots.
