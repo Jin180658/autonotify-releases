@@ -1,6 +1,6 @@
 {
-  "version": "0.1.18",
-  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.18/AutoNotify-Setup-0.1.18.exe",
-  "sha256": "D34DFE9AA00A51174FF5E1AA3FB7C1B1D4D4DF017E72D2E7649142184BE36BFB",
-  "notes": "Customer phone is optional and accepts Malaysian, Singaporean and other international numbers. AutoNotify preserves the formatting you enter. Includes the Windows startup repair from 0.1.17."
+  "version": "0.1.19",
+  "downloadUrl": "https://github.com/Jin180658/autonotify-releases/releases/download/v0.1.19/AutoNotify-Setup-0.1.19.exe",
+  "sha256": "F9606FDAA337D46A30234F690A60386432A5AE53B61007A487C9AA56B41F447F",
+  "notes": "Fixes the Windows updater stall and adds a progress bar. If your older copy stalls at Installing program files, run the 0.1.19 installer directly once using the same Windows account and installation folder."
 }

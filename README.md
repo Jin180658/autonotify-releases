@@ -9,7 +9,7 @@ This public repository contains installers, instructions and the update feed onl
 ## Install
 
 1. Use a **64-bit Windows PC** and open the download link above.
-2. Under **Assets**, download `AutoNotify-Setup-0.1.18.exe`.
+2. Under **Assets**, download `AutoNotify-Setup-0.1.19.exe`.
 3. Run the installer and choose an installation folder.
 4. Keep both recommended options selected:
    - **Start AutoNotify when I sign in to Windows** — starts the local app after Windows sign-in.
@@ -73,6 +73,8 @@ Older versions can also be upgraded by downloading the latest installer and runn
 5. 发送提醒时电脑需要开机、登录 Windows 并联网。定期在 **设置 → 备份与恢复** 中备份，并将备份复制到其他设备。
 
 ## Release status
+
+Version **0.1.19** fixes the Windows updater handoff and adds a progress bar. If version 0.1.18 or earlier stalls at **Installing program files**, download the 0.1.19 installer from the latest release and run it once under the same Windows account using the existing installation folder.
 
 Version **0.1.18** makes the customer phone field optional and supports Malaysian, Singaporean and other international mobile and landline numbers. It keeps the entered formatting, including country codes, leading zeros and common extensions.
 
