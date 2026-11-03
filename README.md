@@ -9,7 +9,7 @@ This public repository contains installers, instructions and the update feed onl
 ## Install
 
 1. Use a **64-bit Windows PC** and open the download link above.
-2. Under **Assets**, download `AutoNotify-Setup-0.1.17.exe`. The source-code ZIP and TAR files are not the application.
+2. Under **Assets**, download `AutoNotify-Setup-0.1.18.exe`.
 3. Run the installer and choose an installation folder.
 4. Keep both recommended options selected:
    - **Start AutoNotify when I sign in to Windows** — starts the local app after Windows sign-in.
@@ -74,9 +74,9 @@ Older versions can also be upgraded by downloading the latest installer and runn
 
 ## Release status
 
-Version **0.1.17** repairs a reported Windows startup failure where PostgreSQL refused inherited administrator permissions. It uses PostgreSQL's own restricted-privilege launcher and reports the correct log paths. Install it under the same Windows account and keep your data folder; do not reset the database or disable UAC. Users whose old copy cannot start should download and run the new installer directly.
+Version **0.1.18** makes the customer phone field optional and supports Malaysian, Singaporean and other international mobile and landline numbers. It keeps the entered formatting, including country codes, leading zeros and common extensions.
 
-The repair passed unit/database integration tests, production build and disposable Windows cold-start, restart/data-preservation and failure-path checks. The original affected elevated Windows configuration still needs confirmation on that user's PC. A fresh second-PC installation, reboot trial and update from an older public release remain real-user acceptance checks. Start with one trial laptop before relying on it across your business. English/Chinese interface and all 0.1.16 features remain included.
+This installer includes the Windows database startup repair introduced in **0.1.17**. If an old copy cannot start, download and run the new installer under the same Windows account, using the existing installation folder.
 
 Current database startup details are in `%LOCALAPPDATA%\AutoNotify\data\logs\postgres.log` and `postgres-control-error.log`. The old `postgres-error.log` may contain historical output from earlier versions.
 
